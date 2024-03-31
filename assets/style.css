@@ -1,0 +1,1077 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+    font-family:'Manrope-med';
+    src: url(./style/fonts/Manrope-Medium.ttf);
+    font-weight: 500;
+    font-size: normal;
+}
+@font-face {
+    font-family:'Manrope-reg';
+    src: url(./style/fonts/Manrope-Regular.ttf);
+    font-weight: 400;
+    font-size: normal;
+}
+@font-face {
+    font-family:'Neutral';
+    src: url(./fonts/NeutralFace.otf);
+    font-weight: 300;
+    font-size: normal;
+}
+.manrope{
+    font-family: "Manrope", sans-serif;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:manrope;
+
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation .begin{
+    display: flex;
+
+}
+.navigation .begin a{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+.navigation .logo{
+    font-size: 20px;
+    color: black;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    
+}
+.navigation .icons a{
+    font-size: 20px;
+    color: black;
+    justify-content: space-between;
+}
+.line{
+    margin: 0 auto;
+    background-color: black;
+    height: 2px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 500px;
+}
+.gender a{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+}
+.line1{
+    margin: 0 auto;
+    background-color: black;
+    height: 3px;
+}
+
+.mono{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.mono .text h1{
+    font-size: 130px ;
+    font-family: 'Neutral';
+    font-weight: 300;
+    font-size: normal;
+}
+.mono .text1 h2{
+    margin-top: 85px;
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal;
+}
+.mono_photo img{
+    margin: 15px;
+}
+.mono_all{
+    margin-top: 90px;
+}
+.mono_text h2{
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal; 
+    font-size: 75px;
+}
+.mono_all_photo img{
+    margin: 20px;
+}
+.text_gen {
+    display: flex;
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal;
+}
+.text_gen1{
+    margin-left: 15px;
+}
+.text_gen2{
+    margin-left: 275px;
+}
+.text_gen3{
+    margin-left: 275px;
+}
+main{
+    background: url(./img/6.jpg);
+    margin-top: 150px;
+    width: 100%;
+}
+.mono_3 h3{
+    margin-top: 100px;
+    color: white;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    font-size: 75px;
+    margin-left: 320px;
+}
+.mono_3 h4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    font-size: 20px;  
+    margin-top: 150px;
+    margin-left: -100px;
+    line-height:120%
+}
+
+.mono_button {
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 15px;
+    height:50px;
+    display: inline-block;
+    margin: 100px 0 70px 0; 
+    margin-left: 620px;
+    margin-top: 30px;
+}
+.mono_button a{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.b h4{
+    margin-top: 220px;
+    font-size: 0px;
+}
+.section_photo{
+    margin-top: 150px;
+}
+.text_new h2{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 65px;
+}
+.text_new h3{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 65px;
+    display: flex;
+    justify-content: end;
+}
+.photo_blye{
+    margin-top: 50px;
+}
+.blye_text h4{
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal; 
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+.photo_red{
+    margin: 30px;
+    margin-top: 50px;
+
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+
+}
+.photo_bmp{
+    display: flex;
+    flex-direction: column;
+}
+.photo_gren{
+    margin: 30px;
+}
+.photo_pink{
+    margin-top: 50px;
+}
+.red_text h4{
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal; 
+    font-size: 17px;
+    margin-left: 400px;
+    margin-top: -300px;
+}
+.gren_text h4{
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal; 
+    font-size: 17px;
+    margin-left: 400px; 
+    margin-top: 260px;
+}
+.pink_text h4{
+    font-family:'Manrope-med';
+    font-weight: 500;
+    font-size: normal; 
+    font-size: 17px; 
+    margin-left: 800px; 
+    margin-top: -17px;
+}
+.section_pay{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.pay_text h2{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 60px;
+    margin-left: 80px;
+}
+.pay5 img{
+    margin-top: 24px;
+    margin-left:370px;
+}
+.pay5 h4{
+    margin-top: -24px;
+    margin-left:400px;
+}
+.text_pro_costume{
+    display: flex;
+    justify-content: end;
+}
+.text_pro_costume{
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    margin-top: -490px;
+    margin-right: 320px;
+    font-size: 20px;
+}
+.text_size h4{
+    margin-top: 20px;
+    margin-left: 755px;
+    font-size: 10px;
+}
+.text_size h3{
+    margin-top: -15px;
+    margin-left:1250px;
+    font-size: 10px;
+}
+.size_tab{
+    margin-left: 750px;
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    margin-top: 150px;
+}
+.black_photo{
+    display: flex;
+    justify-content: space-between;
+}
+.black_text{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 15px;
+}
+.black{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 15px; 
+}
+.section_famely{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.nnn{
+    display: flex;
+    flex-direction: column;
+}
+.big_text h2{
+    margin: 50px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 64px;
+}
+.d{
+    margin-top: 30px;
+}
+.a{
+    margin-bottom: 30px;
+}
+.mini_text h3{
+    margin: 50px;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    margin-top: -20px;
+    font-size: 25px;
+}
+.g{
+    margin-top: 30px;
+}
+.subcription_text h2{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 64px;
+    margin-top: 90px;
+    color: white;
+}
+.subcription_text2 h2{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+    font-size: 64px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.textgirl h3{
+    margin-top: 45px;
+    color: white;
+    font-family:'Manrope-med';
+    font-size: 20px;
+    font-weight: 500;
+    font-size: normal;
+
+}
+.textgirl img{
+    margin-top: 30px;
+}
+.text_name{
+    color: white;
+    margin-left: 700px;
+    margin-top: -400px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+}
+.input{
+    border: 1px  #eaf0ea;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.text_phone{
+    color: white;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+}
+.input1{
+    border: 1px  #eaf0ea;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.text_email{
+    color: white;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: normal;
+}
+.input2{
+    border: 1px  #eaf0ea;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.text_type h3{
+    color: white;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+}
+.choice_1 h4{
+    color: white;
+    font-size: 15px;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    margin: 20px;
+}
+
+.choice_1{
+    display: flex;
+    margin-left: 650px;
+}
+.consent h4{
+    color: white;
+    font-size: 15px;
+    font-family:'Manrope-reg';
+    font-weight: 400;
+    font-size: normal;
+    margin-left: 700px;
+    margin-top:10px ;
+}
+.tosend_btn{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    height:50px;
+    width: 350px;
+    display: inline-block;
+   margin-top: 20px;
+    margin-left: 700px;
+}
+.tosend_btn a{
+    font-family:'Neutral';
+    font-weight: 300;
+    font-size: 15px;
+   margin-left: 110px;
+   color: black;
+}
+.line_btn{
+    margin: 0 auto;
+    background-color: white;
+    height: 2px;
+    margin: 20px;
+}
+.monochrome h4{
+    color: white;
+    font-size: 10px;
+    margin-top: 90px;
+}
+.networks{
+    display: flex;
+    justify-content: center;
+   
+}
+.networks img{
+   margin: 10px;
+
+}
+.monochrome1 h4{
+    color: white;
+    font-size: 10px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: end;
+}
+.b h3{
+    font-size: 0px;
+    margin-top: 50px;
+}
+
+
+@media (max-width:280px) {
+    .container{
+      width: 300px !important;
+      padding: 5px  5px !important;
+    }
+    .navigation{
+        width: 150px;
+    }
+    .navigation .begin{
+        width: 59px;
+        display: flex;
+    }
+    .navigation .begin a{
+        font-size: 25%;
+    }
+    .navigation .logo a{
+        font-size: 65%;
+    }
+    .navigation .icons img{
+        width: 10%;
+    }
+    .naw{
+        width: 100px !important;
+    }
+    .naw .gender  {
+        display: flex;
+        justify-content: space-between;
+        font-size: 55%;
+        margin-left: -700px !important;
+    }
+    .naw .gender .gr a{
+        font-size: 20%;
+        margin-left: -500px;
+    }
+    .mono{
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mono .text h1{
+        font-size: 150%;
+    }
+    .mono .text1 h2{
+        font-size: 50%;
+        margin-top: 10px;
+    }
+    .mono_photo img{
+        display: flex;
+        flex-direction: row;
+        width: 80% !important;
+    }
+    .mono_all .mono_text h2{
+        font-size: 250%;
+    }
+    .mono_all_photo img{
+        width: 80%;
+    }
+    .text_gen h3{
+        font-size: 60%;
+
+    }
+    .text_gen1{
+        margin-top: -600px;
+    }
+    .text_gen2{
+        margin-top: -320px;
+        margin-left: -50px;
+    }
+    .text_gen3{
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    .main{
+        width: 100%;
+    }
+    .mono_3 h4{
+        font-size: 88%;
+        margin-left: 70px;
+    }
+    .section_photo{
+        width: 100px;
+    }
+    .photo img{
+        display: flex;
+        flex-direction: row;
+        width: 95% !important;
+    }
+    .section_photo .text_new h2{
+        font-size: 80%;
+    }
+    .section_photo .text_new h3{
+        font-size: 80%;
+        justify-content: center;
+    }
+    .photo_pink img{
+        width: 150%;
+        margin-left: 20px;
+    }
+    .photo_bmp img{
+        display: flex;
+        flex-direction: column;
+        width: 170% !important;
+        margin: -10px;
+    }
+    .section_pay {
+        display: flex;
+        flex-direction: row;
+    }
+    .size_tab img{
+        width: 100%;
+        margin-left: -200px;
+    }
+    .section_black .black_photo img{
+        width:50% ;
+    }
+    .black_text h3{
+        justify-content: space-between;
+        font-size: 45%;
+    }
+    .black h4{
+        justify-content: space-between;
+        font-size: 35%;
+    }
+    .section_famely{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mam_photo {
+        width: 90%;
+    }
+    .big_text h2{
+        font-size: 65%;
+        margin-top: 550px;
+        margin-left: -250px;
+    }
+    .mini_text h3{
+        font-size: 60%;
+        margin-top: -25px;
+        margin-left: -250px;
+    }
+    .container.subcription_text h2{
+        font-size: 75px !important;
+        justify-content: center;
+    }
+    .subcription_text2 h2{
+        font-size: 50%;
+    }
+    .textgirl h3{
+        font-size: 75%;
+    }
+    .textgirl img{
+        width: 90%;
+    }
+    .monochrome h4{
+        display: flex;
+        font-size: 20%;
+    }
+    .monochrome1 h4{
+        font-size:20% ;
+    }
+
+    .photo_pay img{
+        width: 30%;
+    }
+    .pay_text h2{
+    font-size: 60%;
+    }
+
+}
+
+@media (max-width:520px) {
+    .container{
+      width: 500px !important;
+      padding: 5px  5px !important;
+    }
+    .navigation{
+        width: 500px;
+    }
+    .navigation .begin{
+        width: 75px;
+        display: flex;
+    }
+    .navigation .begin a{
+        font-size: 75%;
+        margin: 5px;
+    }
+    .navigation .logo a{
+        font-size: 115%;
+        margin: 5px;
+    }
+    .navigation .icons img{
+        width: 12% !important;
+        margin: 5px;
+    }
+    .naw{
+        width: 100px !important;
+    }
+    .naw .gender  {
+        display: flex;
+        justify-content: space-between;
+        font-size: 55%;
+        margin-left: 10px !important;
+    }
+    .naw .gender .gr a{
+        font-size: 20%;
+        margin-left: -500px;
+    }
+    .mono{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mono .text h1{
+        font-size: 350%;
+    }
+    .mono .text1 h2{
+        font-size: 70%;
+        margin-top: 30px !important;
+    }
+    .mono_photo img{
+        display: flex;
+        flex-direction: row;
+        width: 90% !important;
+    }
+    .mono_all .mono_text h2{
+        font-size: 350%;
+    }
+    .mono_all_photo img{
+        width: 90%;
+    }
+    .text_gen h3{
+        font-size: 70%;
+
+    }
+    .text_gen1{
+        margin-top: -1050px;
+    }
+    .text_gen2{
+        margin-top: -530px;
+        margin-left: -50px;
+    }
+    .text_gen3{
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    .main{
+        width: 500px;
+    }
+    .mono_3 h3{
+        font-size: 200% !important;
+
+    }
+    .mono_3 h4{
+        font-size: 100% !important;
+        margin-left: 50px;
+    }
+    .section_photo{
+        width: 500px;
+    }
+    .photo img{
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;
+        margin: 5px;
+    }
+    .section_photo .text_new h2{
+        font-size: 250%;
+    }
+    .section_photo .text_new h3{
+        font-size: 250%;
+        justify-content: end;
+    }
+    .photo_pink img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .photo_bmp img{
+        display: flex;
+        flex-direction: column;
+        width: 120% !important;
+        margin: -5px;
+        margin-top: 5px;
+    }
+    .section_pay {
+        display: flex;
+        flex-direction: row;
+    }
+    .photo_pay img{
+        width: 500% !important;
+    }
+    .pay_text h2{
+        font-size: 200% !important;
+        margin-left: 50px !important;
+    }
+    .text_pro_costume h3{
+     margin-left: 50px;
+        margin-top: 500px;
+    }
+    .size_tab img{
+        width: 100%;
+        margin-left: -200px;
+    }
+    .section_black .black_photo img{
+        width:50% ;
+    }
+    .black_text h3{
+        justify-content: space-between;
+        font-size: 65%;
+    }
+    .black h4{
+        justify-content: space-between;
+        font-size: 45%;
+    }
+    .section_famely{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+    .mam_photo {
+        width: 90% !important;
+        justify-content: center !important;
+    }
+    .big_text h2{
+        font-size: 95%;
+        margin-top: 550px;
+        margin-left: -450px;
+    }
+    .mini_text h3{
+        font-size: 80%;
+        margin-top: -25px;
+        margin-left: -450px;
+    }
+    .container.subcription_text h2{
+        font-size: 75px !important;
+        justify-content: center;
+    }
+    .subcription_text2 h2{
+        font-size: 3% !important;
+    }
+    .textgirl h3{
+        font-size: 120% !important;
+    }
+    .textgirl img{
+        width: 100% !important;
+    }
+    .monochrome h4{
+        display: flex;
+        font-size: 50%;
+    }
+    .monochrome1 h4{
+        font-size:45% ;
+    }
+
+    .photo_pay img{
+        width: 30%;
+    }
+    .pay_text h2{
+    font-size: 60%;
+    }
+
+}
+
+@media (max-width:720px) {
+    .container{
+      width: 700px !important;
+      padding: 5px  5px !important;
+    }
+    .navigation{
+        width: 700px;
+    }
+    .navigation .begin{
+        width: 75px;
+        display: flex;
+    }
+    .navigation .begin a{
+        font-size: 85%;
+        margin: 5px;
+    }
+    .navigation .logo a{
+        font-size: 155%;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .navigation .icons img{
+        width: 10% !important;
+        margin-left: 35px;
+    }
+    .naw{
+        width: 700px !important;
+    }
+    .naw .gender  {
+        display: flex;
+        justify-content: space-between;
+        font-size: 55%;
+        margin-left: 10px !important;
+    }
+    .naw .gender .gr a{
+        font-size: 20%;
+        margin-left: -500px;
+    }
+    .mono{
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mono .text h1{
+        font-size: 500%;
+    }
+    .mono .text1 h2{
+        font-size: 80%;
+        margin-top: 50px !important;
+    }
+    .mono_photo img{
+        display: flex;
+        flex-direction: row;
+        width: 95% !important;
+    }
+    .mono_all .mono_text h2{
+        font-size: 400%;
+    }
+    .mono_all_photo img{
+        width: 90%;
+    }
+    .text_gen h3{
+        font-size: 90%;
+
+    }
+    .text_gen1{
+        margin-top: -1450px;
+    }
+    .text_gen2{
+        margin-top: -730px;
+        margin-left: -50px;
+    }
+    .text_gen3{
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    .main{
+        width: 700px;
+    }
+    .mono_3 h3{
+        font-size: 200% !important;
+
+    }
+    .mono_button{
+        margin-left: -200px;
+    }
+    .mono_3 h4{
+        font-size: 170% !important;
+        margin-left: 50px;
+    }
+    .section_photo{
+        width: 500px;
+    }
+    .photo img{
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;
+        margin: 5px;
+    }
+    .section_photo .text_new h2{
+        font-size: 350%;
+    }
+    .section_photo .text_new h3{
+        font-size: 350%;
+        justify-content: end;
+    }
+    .red_text {
+        margin-top: 60px;
+    }
+    .photo_pink img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .photo_bmp img{
+        display: flex;
+        flex-direction: column;
+        width: 120% !important;
+        margin: -5px;
+        margin-top: 5px;
+    }
+    .section_pay {
+        display: flex;
+        flex-direction: row;
+    }
+    .photo_pay img{
+        width: 200% !important;
+    }
+    .pay_text h2{
+        font-size: 200% !important;
+        margin-left: 50px !important;
+    }
+    .text_pro_costume h3{
+        font-size: 100%;
+     margin-left: 350px;
+        margin-top: 500px;
+    }
+    .size_tab img{
+        width: 100%;
+        margin-left: -200px;
+    }
+    .section_black .black_photo img{
+        width:50% ;
+    }
+    .black_text h3{
+        justify-content: space-between;
+        font-size: 85%;
+    }
+    .black h4{
+        justify-content: space-between;
+        font-size: 65%;
+    }
+    .section_famely{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+    .mam_photo {
+        width: 90% !important;
+        justify-content: center !important;
+    }
+    .big_text h2{
+        font-size: 105%;
+       
+    }
+    .mini_text h3{
+        font-size: 95%;
+       
+    }
+    .container.subcription_text h2{
+        font-size: 75px !important;
+        justify-content: center;
+    }
+    .subcription_text2 h2{
+        font-size: 150% !important;
+    }
+    .textgirl h3{
+        font-size: 120% !important;
+    }
+    .textgirl img{
+        width: 50% !important;
+    }
+    .monochrome h4{
+        display: flex;
+        font-size: 55%;
+    }
+    .monochrome1 h4{
+        font-size:55% ;
+        margin-left: -29px;
+    }
+    .section_filling{
+        margin-top: 150px;
+        margin-left: -300px;
+    }
+    .choice{
+        margin-top: 25px;
+        margin-left: -400px;
+    }
+
+}
+
